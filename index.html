@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Primera Web de ANGELICA</title>
+
+    <link rel="stylesheet" href="styles.css?v=6">
+
+</head>
+
+
+<body>
+
+    <nav class="menu-principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#que-es-musica">Qué es la música</a>
+        <a href="#generos">Géneros</a>
+        <a href="#artistas">Artistas</a>
+        <a href="#concierto">Concierto</a>
+        <a href="#canciones">Canciones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+
+    <!-- =========================
+         ENCABEZADO
+    ========================= -->
+
+    <div class="encabezado" id="inicio">
+    </div>
+
+
+    <!-- =========================
+         SOBRE MÍ
+    ========================= -->
+
+    <section class="sobre-mi" id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy Angélica. Después de una pausa, regresé a estudiar y, en medio de ese nuevo camino,
+            descubrí que también quería crear un espacio propio para compartir algo que siempre ha estado presente
+            en mi vida: la música. 🎵
+            La salsa, el pop, el vallenato y cada género musical que ha acompañado mi camino han dejado una huella
+            en diferentes etapas de mi vida. Cada canción guarda un recuerdo, despierta una emoción y, de alguna manera,
+            cuenta una parte de mi historia.
+            Esta página nace de ese amor por la música y de las ganas de compartir contigo esas canciones, artistas y
+            géneros que han formado parte de mi historia. ❤
+        </p>
+
+        <p class="firma-sobre-mi">— Angélica 🎵</p>
+    </section>
+
+
+    <!-- =========================
+         ¿QUÉ ES LA MÚSICA?
+    ========================= -->
+
+    <div class="seccion-musica" id="que-es-musica">
+
+        <div class="texto-musica">
+
+            <div class="caja-musica">
+                <h2>¿Qué es la música?</h2>
+            </div>
+
+            <h3>Una forma de expresión</h3>
+
+            <p class="descripcion-musica">
+                La música es una forma de expresión que puede transmitir
+                emociones, historias y sentimientos.
+            </p>
+
+            <div class="cita-container">
+
+                <p class="frase-platon">
+                    “La música da alma al universo, alas a la mente y vida a todo”
+                </p>
+
+                <div class="separador">
+                    <span>♥</span>
+                </div>
+
+                <p class="autor-platon">
+                    — PLATÓN —
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="imagen-musica">
+
+            <img src="images/musica.png" alt="La música">
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MIS GÉNEROS MUSICALES
+    ========================= -->
+
+    <section class="generos-musicales" id="generos">
+        <img src="images/favoritos.png" alt="Mis géneros musicales favoritos: Salsa, Pop, Vallenato, Balada, Bachata y Merengue">
+    </section>
+
+    <!-- =========================
+         MIS ARTISTAS FAVORITOS (CARRUSEL)
+    ========================= -->
+    <section class="artistas-favoritos" id="artistas">
+
+        <img src="images/microfono-decorativo.png" alt="" class="decoracion-microfono">
+
+        <h2>⭐ Mis artistas favoritos</h2>
+        <p>Grandes voces que han dejado huella en mi historia</p>
+
+        <div class="carrusel-contenedor">
+
+            <button class="flecha izquierda" onclick="moverCarrusel(-1)">❮</button>
+
+            <div class="carrusel" id="carrusel">
+
+                <div class="tarjeta-artista salsa">
+                    <h3>💃 Salsa</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>Grupo Niche</p>
+                    <p>Gran Combo</p>
+                    <p>Cano Estremera</p>
+                    <p>Luisito Carrión</p>
+                    <p>Marc Anthony</p>
+                </div>
+
+                <div class="tarjeta-artista pop">
+                    <h3>🎤 Pop</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>Michael Jackson</p>
+                    <p>Adele</p>
+                    <p>Maluma</p>
+                    <p>Shakira</p>
+                    <p>Feid</p>
+                </div>
+
+                <div class="tarjeta-artista vallenato">
+                    <h3>🪗 Vallenato</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>Diomedes Díaz</p>
+                    <p>Binomio de Oro</p>
+                    <p>Jorge Celedón</p>
+                    <p>Silvestre Dangond</p>
+                    <p>Felipe Peláez</p>
+                </div>
+
+                <div class="tarjeta-artista balada">
+                    <h3>♥ Balada</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>José José</p>
+                    <p>Ricardo Arjona</p>
+                    <p>Sin Bandera</p>
+                    <p>Franco de Vita</p>
+                    <p>Alejandro Sanz</p>
+                </div>
+
+                <div class="tarjeta-artista bachata">
+                    <h3>🎸 Bachata</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>Romeo Santos</p>
+                    <p>Aventura</p>
+                    <p>Prince Royce</p>
+                    <p>Dani J</p>
+                    <p>Juan Luis Guerra</p>
+                </div>
+
+                <div class="tarjeta-artista merengue">
+                    <h3>🎉 Merengue</h3>
+                    <div class="tarjeta-foto"></div>
+                    <p>Juan Luis Guerra</p>
+                    <p>Milly Quezada</p>
+                    <p>Bonny Cepeda</p>
+                    <p>Fernando Villalona</p>
+                    <p>Sergio Vargas</p>
+                </div>
+
+            </div>
+
+            <button class="flecha derecha" onclick="moverCarrusel(1)">❯</button>
+
+        </div>
+
+        <div class="carrusel-dots" id="carrusel-dots">
+            <span class="activo" onclick="irATarjeta(0)"></span>
+            <span onclick="irATarjeta(1)"></span>
+            <span onclick="irATarjeta(2)"></span>
+            <span onclick="irATarjeta(3)"></span>
+            <span onclick="irATarjeta(4)"></span>
+            <span onclick="irATarjeta(5)"></span>
+        </div>
+
+        <p class="carrusel-hint">👉 Desliza o usa las flechas para ver más géneros</p>
+
+    </section>
+
+
+    <!-- =========================
+         MI ÚLTIMO CONCIERTO
+    ========================= -->
+
+    <section class="mi-concierto" id="concierto">
+        <h2>🎤 Mi último concierto</h2>
+        <p class="intro">
+            Ver a Morat junto a mi sobrina fue una de esas noches que se quedan grabadas para siempre —
+            la música que nos une.
+        </p>
+        <div class="galeria-videos">
+            <div class="video-contenedor">
+                <video controls poster="images/concierto-poster-1.jpg">
+                    <source src="images/concierto-morat-1.mp4" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </div>
+            <div class="video-contenedor">
+                <video controls poster="images/concierto-poster-2.jpg">
+                    <source src="images/concierto-morat-2.mp4" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========================
+         MIS CANCIONES FAVORITAS
+    ========================= -->
+
+    <section class="canciones-favoritas" id="canciones">
+
+        <h2 style="text-align:center;">🎶 Mis canciones favoritas</h2>
+
+        <div class="artista-grupo">
+            <h3 style="text-align:center;">Grupo Niche</h3>
+            <div class="grupo-notas">
+                <div class="nota-adhesiva" style="transform: rotate(-6deg); margin-top: 4px;">
+                    <div class="nota-titulo">Algo que se quede</div>
+                    <div class="nota-artista">Grupo Niche</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Grupo+Niche+Algo+que+se+quede" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(3deg); margin-top: 22px;">
+                    <div class="nota-titulo">Búscame</div>
+                    <div class="nota-artista">Grupo Niche</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Grupo+Niche+Buscame" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-2deg); margin-top: -6px;">
+                    <div class="nota-titulo">Un alto en el camino</div>
+                    <div class="nota-artista">Grupo Niche</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Grupo+Niche+Un+alto+en+el+camino" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(7deg); margin-top: 14px;">
+                    <div class="nota-titulo">Cómo arrancarte una sonrisa</div>
+                    <div class="nota-artista">Grupo Niche</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Grupo+Niche+Como+arrancarte+una+sonrisa" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-4deg); margin-top: 0px;">
+                    <div class="nota-titulo">Se pareció tanto a ti</div>
+                    <div class="nota-artista">Grupo Niche</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Grupo+Niche+Se+parecio+tanto+a+ti" target="_blank">🎧 Escuchar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="artista-grupo">
+            <h3 style="text-align:center;">Gran Combo</h3>
+            <div class="grupo-notas">
+                <div class="nota-adhesiva" style="transform: rotate(5deg); margin-top: 26px;">
+                    <div class="nota-titulo">El Carbonerito</div>
+                    <div class="nota-artista">Gran Combo</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Gran+Combo+El+Carbonerito" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-8deg); margin-top: 10px;">
+                    <div class="nota-titulo">Regresa ya</div>
+                    <div class="nota-artista">Gran Combo</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Gran+Combo+Regresa+a+mi" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(2deg); margin-top: -4px;">
+                    <div class="nota-titulo">Cheque falso</div>
+                    <div class="nota-artista">Gran Combo</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Gran+Combo+Cheque+falso" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-3deg); margin-top: 18px;">
+                    <div class="nota-titulo">Ámame</div>
+                    <div class="nota-artista">Gran Combo</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Gran+Combo+Amame" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(6deg); margin-top: 2px;">
+                    <div class="nota-titulo">Trampolín</div>
+                    <div class="nota-artista">Gran Combo</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Gran+Combo+Trampolin" target="_blank">🎧 Escuchar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="artista-grupo">
+            <h3 style="text-align:center;">Cano Estremera</h3>
+            <div class="grupo-notas">
+                <div class="nota-adhesiva" style="transform: rotate(-5deg); margin-top: 24px;">
+                    <div class="nota-titulo">La boda de ella</div>
+                    <div class="nota-artista">Cano Estremera</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Cano+Estremera+La+boda+de+ella" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(4deg); margin-top: -8px;">
+                    <div class="nota-titulo">A mí</div>
+                    <div class="nota-artista">Cano Estremera</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Cano+Estremera+A+mi" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-7deg); margin-top: 16px;">
+                    <div class="nota-titulo">Eres tú</div>
+                    <div class="nota-artista">Cano Estremera</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Cano+Estremera+Eres+tu" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(1deg); margin-top: 6px;">
+                    <div class="nota-titulo">Viernes social</div>
+                    <div class="nota-artista">Cano Estremera</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Cano+Estremera+Viernes+social" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-1deg); margin-top: 20px;">
+                    <div class="nota-titulo">Ámame en cámara lenta</div>
+                    <div class="nota-artista">Cano Estremera</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Cano+Estremera+Amame+en+camara+lenta" target="_blank">🎧 Escuchar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="artista-grupo">
+            <h3 style="text-align:center;">Marc Anthony</h3>
+            <div class="grupo-notas">
+                <div class="nota-adhesiva" style="transform: rotate(8deg); margin-top: -2px;">
+                    <div class="nota-titulo">Tu amor me hace bien</div>
+                    <div class="nota-artista">Marc Anthony</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Marc+Anthony+Tu+amor+me+hace+bien" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-4deg); margin-top: 12px;">
+                    <div class="nota-titulo">Flor pálida</div>
+                    <div class="nota-artista">Marc Anthony</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Marc+Anthony+Flor+palida" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(3deg); margin-top: 28px;">
+                    <div class="nota-titulo">Te conozco bien</div>
+                    <div class="nota-artista">Marc Anthony</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Marc+Anthony+Te+conozco+bien" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(-6deg); margin-top: 8px;">
+                    <div class="nota-titulo">Y hubo alguien</div>
+                    <div class="nota-artista">Marc Anthony</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Marc+Anthony+Y+hubo+alguien" target="_blank">🎧 Escuchar</a>
+                </div>
+                <div class="nota-adhesiva" style="transform: rotate(5deg); margin-top: -6px;">
+                    <div class="nota-titulo">Ahora quién</div>
+                    <div class="nota-artista">Marc Anthony</div>
+                    <a class="nota-boton" href="https://www.youtube.com/results?search_query=Marc+Anthony+Ahora+quien" target="_blank">🎧 Escuchar</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CONTACTO
+    ========================= -->
+
+    <section class="contacto" id="contacto">
+        <h2>📩 Contáctame</h2>
+        <p class="contacto-intro">¿Te gustó la página, tienes alguna recomendación de canción, o simplemente quieres saludar? Escríbeme.</p>
+
+        <form id="formulario-contacto" class="formulario-contacto" novalidate>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            <span class="error" id="error-nombre"></span>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="tu@correo.com">
+            <span class="error" id="error-correo"></span>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+            <span class="error" id="error-mensaje"></span>
+
+            <button type="submit" class="boton-enviar">Enviar mensaje</button>
+
+            <p class="confirmacion" id="confirmacion"></p>
+
+        </form>
+    </section>
+
+    <footer class="pie-pagina">
+        <p>Hecho con cariño por Angélica ♥ — Mi Mundo Musical</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
